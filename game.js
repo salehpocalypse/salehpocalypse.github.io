@@ -6,7 +6,7 @@ panicUrl = document.getElementById("panic");
 
 canvas.width = innerWidth;
 canvas.height = innerHeight;
-document.appendChild(canvas);
+document.body.appendChild(canvas);
 
 //document.body.addEventListener("load", (e) => {});
 
