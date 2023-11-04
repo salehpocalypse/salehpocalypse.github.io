@@ -7,9 +7,7 @@ panicUrl = document.getElementById("panic");
 canvas.width = innerWidth;
 canvas.height = innerHeight;
 
-document.body.addEventListener("load", (e) => {
-  e.target.appendChild(canvas);
-});
+//document.body.addEventListener("load", (e) => {});
 
 addEventListener("keydown", (e) => {
   keys[e.key.toLowerCase()] = true;
